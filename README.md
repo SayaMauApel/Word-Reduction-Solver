@@ -4,6 +4,8 @@ To understand the Word Reduction Solver you must first understand the principle 
 
 As you can see accuracy largely depends on dictionary size unfortunately my program as of 27/05/2026 isn't made to support multiple txt files at once that is something that will come at a later date. You may also recongise that the word file I've provided is from SCOWL. This is normally used for spell checkers and has things like "/" and other characters that would otherwise break my program entirely. So I made a seperate program I'll include in this repo titled "Clean-Dictionary". This script cleans the file of unicode characters, "/" and anything else that might cause issue it's also extremely easy to update if needed. It's advised to run the cleaner program before you run the Word Reduction Solver to lower the chance of running into any avoidable errors this only has to be done once to a file.
 
+If you have any questions regarding the program or would like to contact me I accept all inquiries at magic.devmail@gmail.com
+
 Copyright 2000-2026 by Kevin Atkinson
 
 Permission to use, copy, modify, distribute, and sell any part of the English
