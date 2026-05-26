@@ -4,6 +4,20 @@ To understand the Word Reduction Solver you must first understand the principle 
 
 As you can see accuracy largely depends on dictionary size unfortunately my program as of 27/05/2026 isn't made to support multiple txt files at once that is something that will come at a later date. You may also recongise that the word file I've provided is from SCOWL. This is normally used for spell checkers and has things like "/" and other characters that would otherwise break my program entirely. So I made a seperate program I'll include in this repo titled "Clean-Dictionary". This script cleans the file of unicode characters, "/" and anything else that might cause issue it's also extremely easy to update if needed. It's advised to run the cleaner program before you run the Word Reduction Solver to lower the chance of running into any avoidable errors this only has to be done once to a file.
 
+Results: 
+ash
+peat
+may
+bye
+spay
+seat
+coops
+shoot
+pear
+
+The longest word(s) so far discovered with my program are "shoot and coops" 5 letter words. This is out of an 80,000 letter wordlist meaning there is (approximately) a 0.01125% chance any particular word contains
+what I am looking for. I currently aspire to find a 7 letter word if such a thing even exists fitting my criteria that is my goal for this project.
+
 If you have any questions regarding the program or would like to contact me I accept all inquiries at magic.devmail@gmail.com
 
 Copyright 2000-2026 by Kevin Atkinson
