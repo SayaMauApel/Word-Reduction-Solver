@@ -16,7 +16,12 @@ shoot
 pear
 
 The longest word(s) so far discovered with my program are "shoot and coops" 5 letter words. This is out of an 80,000 letter wordlist meaning there is (approximately) a 0.01125% chance any particular word contains
-what I am looking for. I currently aspire to find a 7 letter word if such a thing even exists fitting my criteria that is my goal for this project.
+As for what I am looking for. I currently aspire to find a 7 letter word if such a thing even exists fitting my criteria that is my goal for this project.
+
+How to run the program:
+
+First download the files Dictionary-Cleaner, 12of12inf.txt, TheReductionSolver. Now you'll need to alter the file path at the top of the Dictionary Cleaner's source code to the file path of 12of12inf.txt on your device. Set the output to any folder/file you'd like just keep in mind it may override the contents of any files you set it to. e.g output_path = r"C:\Users\xyz\source\repos\WordReductionSolver\WordReductionSolver\CleanedDictionary.txt", file_path = r"C:\Users\xyz\source\repos\WordReductionSolver\WordReductionSolver\2of12inf.txt". Now run the Dictionary Cleaner this will remove any unnessessary characters and format the txt file for the Word Reduction Solver. Once you've done that open the Word Reduction Solver set your "Seat" to Seat = r"C:\Users\xyz\source\repos\WordReductionSolver\WordReductionSolver\CleanedDictionary.txt" or change the txt file to your output path for your Dictionary Cleaner. Then simply run the Word Reduction Solver and watch the magic happen you'll see the results at your console. I'm currently working on expanding this to work on more documents and larger sets of text so stay tuned. And do not forget to change xyz to your actual user for Windows I don't know the equivalent for linux so if anyone does and is willing to help improve this guide it'd be very much appreciated.
+
 
 If you have any questions regarding the program or would like to contact me I accept all inquiries at magic.devmail@gmail.com
 
